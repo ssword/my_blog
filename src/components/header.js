@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header className="h-16 bg-blue-600 text-white sticky top-0">
+  <header className="h-16 bg-blue-600 text-white sticky top-0 z-50">
     <div className="flex justify-between items-center px-8 mx-auto w-full h-full max-w-screen-xl">
       <h1 className="text-2xl font-semibold font-rubik">
         <Link to="/"> {siteTitle} </Link>

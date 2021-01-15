@@ -8,7 +8,7 @@ const PostsList = ({ posts }) => {
       {
         posts.edges.map(({ node }) => {
           return (
-            <PostsListItem key={node.id} frontmatter={node.frontmatter} />
+            <PostsListItem key={node.id} post={node} />
           );
         })}
     </ul>
